@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronRight, X } from 'lucide-react';
-import logo from '../logo.png';
-import logo2 from '../logo2.png';
 import beebotImage from '../beebot.png';
 import eyerisImage from '../eyeris.png';
 import cowImage from '../cow.png';
-
+import chromebookimage from '../chromebook.png'
+import speakerimage from '../speaker.png'
+import mediaimage from '../media.png'
 interface TechTool {
   name: string;
   icon: string;
@@ -36,19 +36,19 @@ const techTools: TechTool[] = [
     name: "Speakers",
     icon: "🔊",
     description: "Audio devices that amplify sound for the entire class. They are used with multimedia lessons, videos, music, and announcements.",
-    image: "https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=400"
+    image: speakerimage
   },
   {
     name: "Netbooks/Chromebooks",
     icon: "💻",
     description: "Lightweight laptops designed for web-based learning, Google Workspace apps, and student assignments.",
-    image: "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400"
+    image: chromebookimage
   },
   {
     name: "MMPs",
     icon: "📽️",
     description: "Devices that project multimedia (videos, slides, animations) from a computer onto a large screen or wall, making teaching more visual and interactive.",
-    image: "https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=400"
+    image: mediaimage
   },
   {
     name: "COW",
@@ -141,15 +141,11 @@ function App() {
       {/* Header */}
       <div className="bg-white shadow-lg border-b-4 border-indigo-600">
         <div className="max-w-7xl mx-auto px-6 py-8">
-          <div className="mb-4 flex items-center justify-between">
-            <img src={logo2} alt="Left logo" className="h-24 w-24" />
-            <img src={logo} alt="Right logo" className="h-24 w-24" />
-          </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Beaconhouse Education Technology Essentials
+            
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed max-w-4xl">
-            This interactive dashboard provides a comprehensive reference for Education Technology requirements across all Beaconhouse levels from Early Years (EYs) to Senior Section, including BCP. It outlines the essential equipment required at each stage, ensuring consistency and alignment with Beaconhouse standards.
+            
           </p>
         </div>
       </div>
