@@ -316,6 +316,8 @@ function App() {
             <p className="text-lg leading-relaxed">
               In the academic year 2024-25, MMPs were provided by the Head Office through a special budget; however, MMPs are part of the school CAPEX items, and schools are required to order new or replacement as per section requirements.
             </p>
+            <br />
+            <p>Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget</p>
           </div>
         </div>
       </div>
