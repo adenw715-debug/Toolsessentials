@@ -137,6 +137,10 @@ function App() {
     if (toolName === "Speakers" && gradeLevel.shortName !== "Early Years") {
       return false;
     }
+    // For the matrix, always show a tick for MMPs except Early Years
+    if (toolName === "MMPs" && gradeLevel.shortName !== "Early Years") {
+      return true;
+    }
     return toolName in gradeLevel.tools;
   };
 
