@@ -321,11 +321,11 @@ function App() {
             <h2 className="text-2xl font-bold">Special Note</h2>
           </div>
           <div className="bg-white bg-opacity-10 rounded-lg p-6">
-            <p className="text-lg leading-relaxed">
+            <p className="leading-relaxed">
               In the academic year 2024-25, MMPs were provided by the Head Office through a special budget; however, MMPs are part of the school CAPEX items, and schools are required to order new or replacement as per section requirements.
             </p>
             <br />
-            <p>Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget</p>
+            <p className="leading-relaxed">Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget</p>
           </div>
         </div>
       </div>
