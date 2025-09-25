@@ -73,9 +73,9 @@ const gradeLevels: GradeLevel[] = [
     name: "Lower Primary (Grade 1, 2)",
     shortName: "Lower Primary",
     tools: {
-      "Chromebooks": "1 device for 6 students / Chromebooks (5 Chromebooks per section)",
+      "Chromebooks": "1 device for 6 students / (5 per section)",
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-      "COW": "25 chromebooks per COW"
+      "COW": "1 cow per 5 sections"
     }
   },
   {
@@ -85,7 +85,7 @@ const gradeLevels: GradeLevel[] = [
       "Chromebooks": "1 device for 6 students (5 per section)",
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
       "COW": "for grade 3,4 (1 cow per 5 sections)",
-      "Class 5 students": "will have personal Chromebooks as per the BYOAD programme"
+      "Class 5 Students will have personal Chromebooks as per BYOAD programme": ""
     }
   },
   {
