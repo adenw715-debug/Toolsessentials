@@ -33,15 +33,9 @@ const techTools: TechTool[] = [
     image: "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=400"
   },
   {
-    name: "Speakers",
-    icon: "",
-    description: "Audio devices that amplify sound for the entire class. They are used with multimedia lessons, videos, music, and announcements.",
-    image: speakerimage
-  },
-  {
     name: "Chromebooks",
     icon: "",
-    description: "Lightweight laptops designed for web-based learning, Google Workspace apps, and student assignments.",
+    description: "Lightweight devices designed for web-based learning, Google Workspace apps, and student assignments.",
     image: chromebookimage
   },
   {
@@ -53,14 +47,8 @@ const techTools: TechTool[] = [
   {
     name: "COW",
     icon: "",
-    description: "A mobile cart carrying laptops or tablets, which can be moved from class to class.",
+    description: "A chargeable cart carrying Chromebooks, which can be moved from class to class.",
     image: cowImage
-  },
-  {
-    name: "Owey/EyeRIS",
-    icon: "",
-    description: "EyeRIS/Owey is an interactive classroom solution that turns any flat surface (like a wall or whiteboard) into a touch-enabled interactive board. It uses infrared sensors and optical tracking to detect touch or pen movement, allowing teachers and students to write, draw, and highlight directly on projected lessons.",
-    image: eyerisImage
   },
   {
     name: " Computer Headset",
@@ -75,30 +63,29 @@ const gradeLevels: GradeLevel[] = [
     name: "Early Years (PreNursery, Nursery, KG)",
     shortName: "Early Years",
     tools: {
-      "Bee-Bot": "5 per 20 sections",
+      "Bee-Bot": "1 per section",
       "Tablet": "6 per section",
-      "Owey/EyeRIS": "1 per 4 sections",
-      "Speakers": "1 per Class",
+      "MMPs": "1 per section",
       " Computer Headset": "6 per section"
     }
   },
   {
-    name: "Lower Primary (Grade 1, 2, 3)",
+    name: "Lower Primary (Grade 1, 2)",
     shortName: "Lower Primary",
     tools: {
-      "Chromebooks": "5 per section",
+      "Chromebooks": "1 device for 6 students / Chromebooks (5 Chromebooks per section)",
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-    
       "COW": "25 chromebooks per COW"
     }
   },
   {
-    name: "Upper Primary (Grade 4, 5)",
+    name: "Upper Primary (Grade 3, 4, 5)",
     shortName: "Upper Primary",
     tools: {
+      "Chromebooks": "1 device for 6 students (5 per section)",
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-      
-      "Chromebooks": "For class 5 as per BYOAD plan"
+      "COW": "for grade 3,4 (1 cow per 5 sections)",
+      "Class 5 students": "will have personal Chromebooks as per the BYOAD programme"
     }
   },
   {
@@ -106,8 +93,7 @@ const gradeLevels: GradeLevel[] = [
     shortName: "Middle School",
     tools: {
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-      
-      "Chromebooks": "As per BYOAD plan"
+      "Chromebooks": "Students will have personal Chromebooks as per the BYOAD programme"
     }
   },
   {
@@ -115,7 +101,6 @@ const gradeLevels: GradeLevel[] = [
     shortName: "Secondary School",
     tools: {
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-  
     }
   },
   {
@@ -123,7 +108,6 @@ const gradeLevels: GradeLevel[] = [
     shortName: "BCP",
     tools: {
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-    
     }
   }
 ];
@@ -133,12 +117,8 @@ function App() {
   const [selectedTool, setSelectedTool] = useState<TechTool | null>(null);
 
   const hasToolForGrade = (toolName: string, gradeLevel: GradeLevel): boolean => {
-    // For the matrix, only show a tick for Speakers in Early Years
-    if (toolName === "Speakers" && gradeLevel.shortName !== "Early Years") {
-      return false;
-    }
     // For the matrix, always show a tick for MMPs except Early Years
-    if (toolName === "MMPs" && gradeLevel.shortName !== "Early Years") {
+    if (toolName === "MMPs") {
       return true;
     }
     return toolName in gradeLevel.tools;
@@ -168,7 +148,7 @@ function App() {
             Overview
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            The Beaconhouse EdTech Ecosystem (BEE) leverages innovative classroom technologies to foster an engaging and dynamic learning environment. Designed to support the BEE programme, these technologies enable seamless integration of digital tools, interactive content, and collaborative learning experiences. The following outlines the essential technology requirements that are key to delivering the objectives of the BEE programme and ensuring effective, student-centered education across classrooms.
+            The Beaconhouse EdTech Ecosystem (BEE) leverages innovative classroom technologies to foster an engaging and dynamic learning environment. Designed to support this programme, these technologies enable seamless integration of digital tools, interactive content, and collaborative learning experiences. The following outlines the essential technology requirements that are key to delivering the objectives of BEE and ensuring effective, student-centred education across classrooms.
           </p>
         </div>
 
@@ -176,7 +156,7 @@ function App() {
         <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
           <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-6">
             <h2 className="text-2xl font-bold">Technology Requirements Matrix</h2>
-            <p className="text-indigo-100 mt-2">Click on grade levels to view provisions, or click on tech tools to learn more</p>
+            <p className="text-indigo-100 mt-2">Click on Grade Levels and the tech tools to learn more</p>
           </div>
           
           <div className="overflow-x-auto">
@@ -264,49 +244,45 @@ function App() {
           </div>
         </div>
 
-        {/* Implementation Instructions */}
+        {/* Implementation Guidelines */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8 border-l-4 border-amber-500">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
             <span className="bg-amber-100 text-amber-600 rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-3">
               📋
             </span>
-            Implementation Instructions
+            Implementation Guidelines
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">1</div>
-                <p className="text-gray-700">Special attention should be given to allocating the budget for purchasing these devices to ensure consistent use across all classes.</p>
+                <p className="text-gray-700">Special attention should be given to allocating the budget in CAPEX for purchasing and repairing these devices to ensure consistent use of technology across Beaconhouse.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">2</div>
-                <p className="text-gray-700">Schools should implement a fair rotation system for shared devices.</p>
+                <p className="text-gray-700">Any repair or damage is the responsibility of the School, with support from ITO/Regional Office.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">3</div>
-                <p className="text-gray-700">The ITO team should be aligned to update apps/software monthly and check functionality.</p>
+                <p className="text-gray-700">Heads must maintain an updated record of all tech devices, ensuring details of both functional equipment and those requiring repair are documented.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">4</div>
-                <p className="text-gray-700">Any repair or damage is the responsibility of the School, with support from ITO/Regional Office.</p>
+                <p className="text-gray-700">At least once in a term, an audit of all devices should be conducted by the School Head or designated staff, updating the central inventory record.</p>
               </div>
             </div>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">5</div>
-                <p className="text-gray-700">Heads must maintain an updated record of all tech devices, ensuring details of both functional equipment and those requiring repair are documented.</p>
+                <p className="text-gray-700">Schools should implement a fair rotation system for shared devices.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">6</div>
-                <p className="text-gray-700">Students should not use Tablets/ without teacher supervision.</p>
+                <p className="text-gray-700">The ITO team should be aligned to update apps/software monthly and check functionality.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">7</div>
-                <p className="text-gray-700">A quarterly/once in a term audit of all devices should be conducted by the School Head or designated staff, updating the central inventory record.</p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="bg-indigo-100 text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5">8</div>
-                <p className="text-gray-700">Schools must budget annually for device purchasing/repair costs to reduce disruption.</p>
+                <p className="text-gray-700">Students should not use Tablets/Chromebooks without teacher supervision.</p>
               </div>
             </div>
           </div>
@@ -322,10 +298,14 @@ function App() {
           </div>
           <div className="bg-white bg-opacity-10 rounded-lg p-6">
             <p className="leading-relaxed">
-              In the academic year 2024-25, MMPs were provided by the Head Office through a special budget; however, MMPs are part of the school CAPEX items, and schools are required to order new or replacement as per section requirements.
+              In the academic year 2024-25, MMPs were provided by the Head Office through a special budget. However, MMPs are part of the school CAPEX items, and schools are required to order new or replacement MMPs as per section requirements.
             </p>
             <br />
-            <p className="leading-relaxed">Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget</p>
+            <p className="leading-relaxed">Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget.</p>
+            <br />
+            <p className="leading-relaxed">In the Early Years, schools will continue to use the IWB they already have. However, if any of these boards become non-functional or reach the end of their service life, they will be replaced with MMPs.</p>
+            <br />
+            <p className="leading-relaxed">For Early Years, speakers are included in the MMP package, eliminating the need for a separate purchase of this item in future.</p>
           </div>
         </div>
       </div>
