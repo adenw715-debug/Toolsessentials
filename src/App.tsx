@@ -303,7 +303,7 @@ function App() {
             <br />
             <p className="leading-relaxed">Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget.</p>
             <br />
-            <p className="leading-relaxed">In the Early Years, schools will continue to use the IWB they already have. However, if any of these boards become non-functional or reach the end of their service life, they will be replaced with MMPs.</p>
+            <p className="leading-relaxed">In the Early Years, schools will continue to use the IWB (Interactive Whiteboard) they already have. However, if any of these boards become non-functional or reach the end of their service life, they will be replaced with MMPs.</p>
             <br />
             <p className="leading-relaxed">For Early Years, speakers are included in the MMP package, eliminating the need for a separate purchase of this item in future.</p>
           </div>
@@ -325,7 +325,11 @@ function App() {
               <div className="p-6">
                 <div className="text-center mb-6">
                   <div className="text-4xl mb-3">{selectedTool.icon}</div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{selectedTool.name}</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    {selectedTool.name === "MMPs" ? "MMPs (Multimedia Projectors)" : 
+                     selectedTool.name === "COW" ? "COW (Computer on Wheels)" : 
+                     selectedTool.name}
+                  </h3>
                 </div>
                 
                 <div className="mb-6">
