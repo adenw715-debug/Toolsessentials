@@ -101,6 +101,7 @@ const gradeLevels: GradeLevel[] = [
     shortName: "Secondary School",
     tools: {
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
+      "Pearson Qualification": "Students will have personal Chromebooks as per the BYOAD programme"
     }
   },
   {
