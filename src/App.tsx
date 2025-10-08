@@ -65,7 +65,7 @@ const gradeLevels: GradeLevel[] = [
     tools: {
       "Bee-Bot": "1 per section",
       "Tablet": "6 per section",
-      "MMPs": "1 per section",
+      "MMP Package (MMP + speaker + Chromecast + Installation)": "1 per section",
       " Computer Headset": "6 per section"
     }
   },
@@ -327,7 +327,7 @@ function App() {
                   <div className="text-4xl mb-3">{selectedTool.icon}</div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">
                     {selectedTool.name === "MMPs" ? "MMPs (Multimedia Projectors)" : 
-                     selectedTool.name === "COW" ? "COW (Computer on Wheels)" : 
+                     selectedTool.name === "COW" ? "COW (Computer on wheels)" : 
                      selectedTool.name}
                   </h3>
                 </div>
