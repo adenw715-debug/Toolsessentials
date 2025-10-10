@@ -84,7 +84,6 @@ const gradeLevels: GradeLevel[] = [
     tools: {
       "Chromebooks": "1 device for 6 students (5 per section)",
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
-      "COW": "for grade 3,4 (1 cow per 5 sections)",
       "Class 5 Students will have personal Chromebooks as per BYOAD programme": ""
     }
   },
