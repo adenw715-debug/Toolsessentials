@@ -496,8 +496,6 @@ function App() {
             <br />
             <p className="leading-relaxed">For Early Years, speakers are included in the MMP package, eliminating the need for a separate purchase of this item in future.</p>
             <br />
-           
-            <br />
             <p className="leading-relaxed">As part of the BYOAD programme, Chromebooks have been provided to the Teachers (Grade 5 to 8 and Pearson), excluding P.E, Music, and Sindhi, and Well-being counselors (Middle school).</p>
             <br />
             <p className="leading-relaxed">The installation of LEDs in classrooms is at the discretion of the campus and may be carried out based on a specific programme as a special provision and approval.</p>
