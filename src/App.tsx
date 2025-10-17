@@ -411,11 +411,11 @@ function App() {
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">A-1</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">A-1</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">A-2</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">A-2</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                     </tr>
                                   </tbody>
