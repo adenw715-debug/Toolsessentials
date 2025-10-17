@@ -222,39 +222,39 @@ function App() {
                             </h4>
                             {grade.name === "Early Years (PreNursery, Nursery, KG)" && (
                               <div className="overflow-x-auto px-6">
-                                <table className="w-full border-collapse border border-gray-300" style={{tableLayout: 'fixed'}}>
+                                <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="border border-gray-300 px-4 py-3 text-left font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Bee-Bot</th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Tablet</th>
-                                      <th className="border border-gray-300 px-4 py-4 text-center font-semibold align-middle" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
-                                        MMP package<br/>(MMP + speakers + Chromecast + installation)
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Bee-Bot</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Tablet</th>
+                                      <th className="px-4 py-4 text-center font-semibold align-middle" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
+                                        MMP package<br/><span className="text-xs italic">(MMP + speakers + Chromecast + installation)</span>
                                       </th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '15%', wordBreak: 'normal', hyphens: 'auto'}}>Computer<br/>Headset</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '15%', wordBreak: 'normal', hyphens: 'auto'}}>Computer<br/>Headset</th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Pre Nursery</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">6 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">6 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Pre Nursery</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">6 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">6 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Nursery</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">6 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">6 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Nursery</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">6 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">6 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">KG</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">6 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">6 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">KG</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">6 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">6 per section</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -263,29 +263,29 @@ function App() {
                             
                             {grade.name === "Lower Primary (Grade 1, 2)" && (
                               <div className="overflow-x-auto px-6">
-                                <table className="w-full border-collapse border border-gray-300" style={{tableLayout: 'fixed'}}>
+                                <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="border border-gray-300 px-4 py-3 text-left font-semibold align-top" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
-                                      <th className="border border-gray-300 px-4 py-4 text-center font-semibold align-middle" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
-                                        MMP Package<br/>(MMP+Speakers+Chromecast+Installation)
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
+                                      <th className="px-4 py-4 text-center font-semibold align-middle" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
+                                        MMP Package<br/><span className="text-xs italic">(MMP+Speakers+Chromecast+Installation)</span>
                                       </th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>COW</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>COW</th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 1</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 device for 6 students<br/>5 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 cow per 5 sections</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 1</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 device for 6 students<br/>5 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 cow per 5 sections</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 2</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 device for 6 students<br/>5 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 cow per 5 sections</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 2</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 device for 6 students<br/>5 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 cow per 5 sections</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -294,71 +294,71 @@ function App() {
                             
                             {grade.name === "Upper Primary (Grade 3, 4, 5)" && (
                               <div className="overflow-x-auto px-6">
-                                <table className="w-full border-collapse border border-gray-300" style={{tableLayout: 'fixed'}}>
+                                <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="border border-gray-300 px-4 py-3 text-left font-semibold align-top" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '35%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
-                                      <th className="border border-gray-300 px-4 py-4 text-center font-semibold align-middle" style={{width: '35%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
-                                        MMP Package<br/>(MMP+Speakers+Chromecast+Installation)
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '35%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
+                                      <th className="px-4 py-4 text-center font-semibold align-middle" style={{width: '35%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
+                                        MMP Package<br/><span className="text-xs italic">(MMP+Speakers+Chromecast+Installation)</span>
                                       </th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 3</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 device for 6 students<br/>5 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 3</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 device for 6 students<br/>5 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 4</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 device for 6 students<br/>5 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 4</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 device for 6 students<br/>5 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 5</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Class 5 Students will have personal Chromebooks as per BYOAD programme</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 5</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Class 5 Students will have personal Chromebooks as per BYOAD programme</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
                                 <div className="mt-4 p-3 bg-blue-50 rounded-lg">
-                                  <p className="text-sm text-blue-800"><strong>Note:</strong> 1 Chromebook per teacher except P.E,Music and Sindhi teacher (Grade 5 only)</p>
+                                  <p className="text-sm text-blue-800"><strong>Note:</strong> 1 chromebook per teacher except P.E, Music and Sindhi.(Grade 5 only)</p>
                                 </div>
                               </div>
                             )}
                             
                             {grade.name === "Middle School (Grade 6, 7, 8)" && (
                               <div className="overflow-x-auto px-6">
-                                <table className="w-full border-collapse border border-gray-300" style={{tableLayout: 'fixed'}}>
+                                <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="border border-gray-300 px-4 py-3 text-left font-semibold align-top" style={{width: '15%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
-                                      <th className="border border-gray-300 px-4 py-4 text-center font-semibold align-middle" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
-                                        MMP package<br/>(MMP + speakers + Chromecast + installation)
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '15%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
+                                      <th className="px-4 py-4 text-center font-semibold align-middle" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
+                                        MMP package<br/><span className="text-xs italic">(MMP + speakers + Chromecast + installation)</span>
                                       </th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto'}}>Teacher's Chromebook</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '25%', wordBreak: 'normal', hyphens: 'auto'}}>Teacher's Chromebook</th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 6</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Students will have personal Chromebooks as per the BYOAD programme</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 Chromebook per teacher except P.E,Sindhi and Music teacher</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 6</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 7</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Students will have personal Chromebooks as per the BYOAD programme</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 Chromebook per teacher except P.E,Sindhi and Music teacher</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 7</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 8</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Students will have personal Chromebooks as per the BYOAD programme</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 Chromebook per teacher except P.E,Sindhi and Music teacher</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 8</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -367,31 +367,31 @@ function App() {
                             
                             {grade.name === "Secondary School (Grade 9, 10, O-Level)" && (
                               <div className="overflow-x-auto px-6">
-                                <table className="w-full border-collapse border border-gray-300" style={{tableLayout: 'fixed'}}>
+                                <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="border border-gray-300 px-4 py-3 text-left font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="border border-gray-300 px-4 py-4 text-center font-semibold align-middle" style={{width: '35%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
-                                        MMP package<br/>(MMP + speakers + Chromecast + installation)
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '20%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-4 py-4 text-center font-semibold align-middle" style={{width: '35%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
+                                        MMP package<br/><span className="text-xs italic">(MMP + speakers + Chromecast + installation)</span>
                                       </th>
-                                      <th className="border border-gray-300 px-4 py-3 text-center font-semibold align-top" style={{width: '45%', wordBreak: 'normal', hyphens: 'auto'}}>Pearson Qualification</th>
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '45%', wordBreak: 'normal', hyphens: 'auto'}}>Pearson Qualification</th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 9</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Students will have personal Chromebooks as per the BYOAD programme</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 9</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 10</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Students will have personal Chromebooks as per the BYOAD programme</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 10</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">Grade 11</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">Students will have personal Chromebooks as per the BYOAD programme</td>
+                                      <td className="px-4 py-3 font-medium text-sm">Grade 11</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -400,23 +400,23 @@ function App() {
                             
                             {grade.name === "BCP" && (
                               <div className="overflow-x-auto px-6">
-                                <table className="w-full border-collapse border border-gray-300" style={{tableLayout: 'fixed'}}>
+                                <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="border border-gray-300 px-4 py-3 text-left font-semibold align-top" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="border border-gray-300 px-4 py-4 text-center font-semibold align-middle" style={{width: '70%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
-                                        MMP package<br/>(MMP + speakers + Chromecast + installation)
+                                      <th className="px-4 py-3 text-center font-semibold align-top" style={{width: '30%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-4 py-4 text-center font-semibold align-middle" style={{width: '70%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.5', minHeight: '80px'}}>
+                                        MMP package<br/><span className="text-xs italic">(MMP + speakers + Chromecast + installation)</span>
                                       </th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">A-1</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">A-1</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="border border-gray-300 px-4 py-2 font-medium">A-2</td>
-                                      <td className="border border-gray-300 px-4 py-2 text-center">1 per section</td>
+                                      <td className="px-4 py-3 font-medium text-sm">A-2</td>
+                                      <td className="px-4 py-3 text-center"><div className="bg-blue-50 rounded-lg px-3 py-2 text-sm">1 per section</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -492,11 +492,11 @@ function App() {
             <br />
             <p className="leading-relaxed">Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget.</p>
             <br />
+            <p className="leading-relaxed">As part of the BYOAD programme, Chromebooks have been provided by Beaconhouse to the teachers (Grade 5 to 8 and Pearson), excluding P.E, Music, and Sindhi, and Well-being Counselors (Middle school).</p>
+            <br />
             <p className="leading-relaxed">In the Early Years, schools will continue to use the IWB (Interactive Whiteboard) they already have. However, if any of these boards become non-functional or reach the end of their service life, they will be replaced with MMPs.</p>
             <br />
             <p className="leading-relaxed">For Early Years, speakers are included in the MMP package, eliminating the need for a separate purchase of this item in future.</p>
-            <br />
-            <p className="leading-relaxed">As part of the BYOAD programme, Chromebooks have been provided to the Teachers (Grade 5 to 8 and Pearson), excluding P.E, Music, and Sindhi, and Well-being counselors (Middle school).</p>
             <br />
             <p className="leading-relaxed">The installation of LEDs in classrooms is at the discretion of the campus and may be carried out based on a specific programme as a special provision and approval.</p>
           </div>
