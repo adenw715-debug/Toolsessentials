@@ -236,21 +236,21 @@ function App() {
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Pre Nursery</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Pre Nursery</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">6 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">6 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Nursery</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Nursery</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">6 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">6 per section</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">KG</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">KG</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">6 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
@@ -276,13 +276,13 @@ function App() {
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 1</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 1</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 device for 6 students<br/>5 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 cow per 5 sections</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 2</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 2</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 device for 6 students<br/>5 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 cow per 5 sections</div></td>
@@ -297,34 +297,35 @@ function App() {
                                 <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
-                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '28%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '36%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
-                                      <th className="px-3 py-3 text-center text-sm font-semibold align-middle" style={{width: '36%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.4', minHeight: '70px'}}>
+                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '22%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
+                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '26%', wordBreak: 'normal', hyphens: 'auto'}}>Chromebooks</th>
+                                      <th className="px-3 py-3 text-center text-sm font-semibold align-middle" style={{width: '26%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.4', minHeight: '70px'}}>
                                         MMP Package<br/><span className="text-xs italic">(MMP+Speakers+Chromecast+Installation)</span>
                                       </th>
+                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '26%', wordBreak: 'normal', hyphens: 'auto'}}>Teacher's Chromebook</th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 3</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 3</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 device for 6 students<br/>5 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">N/A</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 4</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 4</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 device for 6 students<br/>5 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">N/A</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 5</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 5</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Class 5 Students will have personal Chromebooks as per BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
-                                <div className="mt-3 p-2 bg-blue-50 rounded-lg">
-                                  <p className="text-sm text-blue-800"><strong>Note:</strong> 1 chromebook per teacher except P.E, Music and Sindhi.(Grade 5 only)</p>
-                                </div>
                               </div>
                             )}
                             
@@ -343,19 +344,19 @@ function App() {
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 6</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 6</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 7</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 7</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 8</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 8</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
