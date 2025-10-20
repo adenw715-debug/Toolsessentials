@@ -380,17 +380,17 @@ function App() {
                                   </thead>
                                   <tbody>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 9</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 9</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 10</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 10</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                     <tr>
-                                      <td className="px-3 py-2 font-medium text-sm">Grade 11</td>
+                                      <td className="px-3 py-2 font-medium text-sm text-center">Grade 11</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
