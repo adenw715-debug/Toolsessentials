@@ -96,7 +96,7 @@ const gradeLevels: GradeLevel[] = [
     }
   },
   {
-    name: "Secondary School (Grade 9, 10, O-Level)",
+    name: "Secondary School (Grade 9, 10, 11)",
     shortName: "Secondary School",
     tools: {
       "MMP package (MMP + Speakers +  Chromecast+ installation)": "1 per section",
@@ -366,33 +366,51 @@ function App() {
                               </div>
                             )}
                             
-                            {grade.name === "Secondary School (Grade 9, 10, O-Level)" && (
+                            {grade.name === "Secondary School (Grade 9, 10, 11)" && (
                               <div className="overflow-x-auto px-6">
                                 <table className="w-full border-collapse border-2 border-gray-300 rounded-lg overflow-hidden" style={{tableLayout: 'fixed'}}>
                                   <thead>
                                     <tr className="bg-gray-100">
                                       <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '22%', wordBreak: 'normal', hyphens: 'auto'}}>Grade Level</th>
-                                      <th className="px-3 py-3 text-center text-sm font-semibold align-middle" style={{width: '38%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.4', minHeight: '70px'}}>
+                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '44%', wordBreak: 'normal', hyphens: 'auto'}}>Student's Chromebook</th>
+                                      <th className="px-3 py-3 text-center text-sm font-semibold align-middle" style={{width: '34%', wordBreak: 'normal', hyphens: 'auto', lineHeight: '1.4', minHeight: '70px'}}>
                                         MMP package<br/><span className="text-xs italic">(MMP + speakers + Chromecast + installation)</span>
                                       </th>
-                                      <th className="px-3 py-2 text-center text-sm font-semibold align-top" style={{width: '40%', wordBreak: 'normal', hyphens: 'auto'}}>Pearson Qualification</th>
                                     </tr>
                                   </thead>
                                   <tbody>
                                     <tr>
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 9</td>
+                                      <td className="px-3 py-2 text-center">
+                                        <div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">
+                                          N/A for O-Levels / IGCSE / Matric<br/>
+                                          Personal Chromebook -BYOAD for Pearson IGCSE<br/>
+                                          Personal Laptops - BYOD for TNS, Newlands
+                                        </div>
+                                      </td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                     <tr>
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 10</td>
+                                      <td className="px-3 py-2 text-center">
+                                        <div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">
+                                          N/A for O-Levels / IGCSE / Matric<br/>
+                                          Personal Chromebook -BYOAD for Pearson IGCSE<br/>
+                                          Personal Laptops - BYOD for TNS, Newlands
+                                        </div>
+                                      </td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                     <tr>
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 11</td>
+                                      <td className="px-3 py-2 text-center">
+                                        <div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">
+                                          N/A for O-Levels / IGCSE / Matric<br/>
+                                          Personal Chromebook -BYOAD for Pearson IGCSE<br/>
+                                          Personal Laptops - BYOD for TNS, Newlands
+                                        </div>
+                                      </td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                     </tr>
                                   </tbody>
                                 </table>
