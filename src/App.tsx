@@ -517,6 +517,8 @@ function App() {
             <br />
             <p className="leading-relaxed">For Early Years, speakers are included in the MMP package, eliminating the need for a separate purchase of this item in future.</p>
             <br />
+           <p className="leading-relaxed">The use of Bee-Bots in Early Years classes is not applicable to TNS/Newlands campuses.</p>
+            <br />
             <p className="leading-relaxed">The installation of LEDs in classrooms is at the discretion of the campus and may be carried out based on a specific programme as a special provision and approval.</p>
           </div>
         </div>
