@@ -322,7 +322,7 @@ function App() {
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 5</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Class 5 Students will have personal Chromebooks as per BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher </div></td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -347,19 +347,19 @@ function App() {
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 6</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher </div></td>
                                     </tr>
                                     <tr>
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 7</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher </div></td>
                                     </tr>
                                     <tr>
                                       <td className="px-3 py-2 font-medium text-sm text-center">Grade 8</td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">Students will have personal Chromebooks as per the BYOAD programme</div></td>
                                       <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 per section</div></td>
-                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher except P.E,Sindhi and Music teacher</div></td>
+                                      <td className="px-3 py-2 text-center"><div className="bg-blue-50 rounded-lg px-2 py-1 text-sm">1 Chromebook per teacher </div></td>
                                     </tr>
                                   </tbody>
                                 </table>
