@@ -511,7 +511,7 @@ function App() {
             <br />
             <p className="leading-relaxed">Schools with BYOAD classes received Chromebook cabinets with 100% provision for all sections in classes 5-8. These are now CAPEX items, and schools are responsible for ordering replacements for damaged units using their own budget.</p>
             <br />
-            <p className="leading-relaxed">As part of the BYOAD programme, Chromebooks have been provided by Beaconhouse to the teachers Grade 5 to 8,Pearson and Well-being Counselors (Middle school) excluding P.E, Music, and Sindhi.</p>
+            <p className="leading-relaxed">As part of the BYOAD programme, Chromebooks have been provided by Beaconhouse to the teachers Grade 5 to 8,Pearson and Well-being Counselors (Middle school) .</p>
             <br />
             <p className="leading-relaxed">In the Early Years, schools will continue to use the IWB (Interactive Whiteboard) they already have. However, if any of these boards become non-functional or reach the end of their service life, they will be replaced with MMPs.(IB schools may receive special consideration or exemption in terms of replacing IWB, depending on the Regional Director’s decision)</p>
             <br />
